@@ -1,0 +1,47 @@
+ADMIN@DESKTOP-7M40EJ5 MINGW64 /e/ROSHINI/Wipro_velocity/DemoD1
+$ git init
+Initialized empty Git repository in E:/ROSHINI/Wipro_velocity/DemoD1/.git/
+
+ADMIN@DESKTOP-7M40EJ5 MINGW64 /e/ROSHINI/Wipro_velocity/DemoD1 (master)
+$ git add .
+
+ADMIN@DESKTOP-7M40EJ5 MINGW64 /e/ROSHINI/Wipro_velocity/DemoD1 (master)
+$ git remote add origin https://github.com/jeevanaroshini/DemoD1.git
+
+ADMIN@DESKTOP-7M40EJ5 MINGW64 /e/ROSHINI/Wipro_velocity/DemoD1 (master)
+$ git commit -m "login module completed"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'ADMIN@DESKTOP-7M40EJ5.(none)')
+
+ADMIN@DESKTOP-7M40EJ5 MINGW64 /e/ROSHINI/Wipro_velocity/DemoD1 (master)
+$ git config --global user.email "jeevanaroshini@gmail.com"
+
+ADMIN@DESKTOP-7M40EJ5 MINGW64 /e/ROSHINI/Wipro_velocity/DemoD1 (master)
+$ git config --global user.name "T Jeevana Roshini"
+
+ADMIN@DESKTOP-7M40EJ5 MINGW64 /e/ROSHINI/Wipro_velocity/DemoD1 (master)
+$ git commit -m "login module completed"
+[master (root-commit) 7ae0e94] login module completed
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 DD1.txt
+
+ADMIN@DESKTOP-7M40EJ5 MINGW64 /e/ROSHINI/Wipro_velocity/DemoD1 (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 225 bytes | 225.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/jeevanaroshini/DemoD1.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.

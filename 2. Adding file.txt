@@ -1,0 +1,23 @@
+ADMIN@DESKTOP-7M40EJ5 MINGW64 /e/ROSHINI/Wipro_velocity/DemoD1 (master)
+$ git add .
+
+ADMIN@DESKTOP-7M40EJ5 MINGW64 /e/ROSHINI/Wipro_velocity/DemoD1 (master)
+$ git commit -m "Added new file"
+[master 97afb8c] Added new file
+ 1 file changed, 47 insertions(+)
+ create mode 100644 Init git bash.txt
+
+ADMIN@DESKTOP-7M40EJ5 MINGW64 /e/ROSHINI/Wipro_velocity/DemoD1 (master)
+$ git push -u origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 923 bytes | 923.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/jeevanaroshini/DemoD1.git
+   7ae0e94..97afb8c  master -> master
+branch 'master' set up to track 'origin/master'.
+
+ADMIN@DESKTOP-7M40EJ5 MINGW64 /e/ROSHINI/Wipro_velocity/DemoD1 (master)
+$
